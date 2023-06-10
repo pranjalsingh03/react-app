@@ -1,3 +1,33 @@
+/* ========GOOGLE FONTS========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/* ========VARIABLE CSS ========= */
+
+:root{
+  --header-heigth : 3rem;
+
+  /* ======colors===== */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue),var(--sat),20%)
+  --title-color-dark: hsl(var(--hue),var(--sat),0%)
+  --text-color: hsl(var(--hue),var(--sat),46%)
+  --body-color: hsl(var(--hue),var(--sat),98%)
+  --container-color:#fff;
+
+  /* ======fonts and typography===== */
+  --font-family: 'Poppins', sans-serif;
+  --font-size: 1.6rem;
+  --font-weight: 400;
+  --line-height: 1.6;
+  --letter-spacing: 0;
+  --text-transform: none;
+  } 
+
+
+
 .App {
   text-align: center;
 }
