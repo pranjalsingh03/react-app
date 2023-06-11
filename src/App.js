@@ -1,35 +1,31 @@
+import React from 'react';
 import './App.css';
+import Header from "./Components/header"
+import Footer from "./Components/footer"
 
-const user= {
-  name: 'Pranjal Singh',
-  age: 18,
-  location: 'India'
-  }
-  function App() {
-  return (
-  <div className="App">
-  <h1>Hello, {user.name}</h1>
-  <h2>Age: {user.age}</h2>
-  <h2>Location: {user.location}</h2>
-  </div>
-  );
-};
+// const user= {
+//   name: 'Pranjal Singh',
+//   age: 18,
+//   location: 'India'
+//   }
+//   function App() {
+//   return (
+//   <div className="App">
+//   <h1>Hello, {user.name}</h1>
+//   <h2>Age: {user.age}</h2>
+//   <h2>Location: {user.location}</h2>
+//   </div>
+//   );
+// };
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
 
 export default function MyApp() {
   return (
     <div>
-      <h1>Welcome to my app</h1>
-      <p>Here is a button</p>
-      <MyButton />
-      <App />
+      <Header />    {/*Header of the portfolio*/}
+
+
+       <Footer/>     {/*//Footer of the portfolio */}
     </div>
   );
   }
