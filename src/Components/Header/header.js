@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import "../App.css"
+
 
 const Header = () => {
   return (
@@ -27,7 +27,7 @@ const Header = () => {
               <a class="nav-link" href="#">Contact</a>
             </li>
             </ul>
-              <button class="contactus-button">              <a class="nav-link" href="#">Login</a>
+              <button class="button contactus-button">              <a class="nav-link" href="#">Login</a>
               </button>
         </div>
       </div>
@@ -37,3 +37,4 @@ const Header = () => {
 }
 
 export default Header;
+
