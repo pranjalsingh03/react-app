@@ -10,8 +10,10 @@ const Intro = () => {
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal</span>
                 <span className="last-name">Singh </span>
-                <div className="about-user">Hello World! ldfvedskjdsnpranjl singh jdfbunjdvcs ipranjla pranjal singh prabnjsbdasn bjbdfusujdfbnieeurehgbvjs </div>
-                
+                <div className="about-user">Hello World! ldfvedskjdsnpranjl singh jdfbunjdvcs ipranjla pranjal singh prabnjsbdasn bjbdfusujdfbnieeurehgbvjs
+                </div>
+                <div orientation="left"             class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
+                </div>
             </div>
             {/* Right side of the div */}
             <div className="main-box-content-right">
