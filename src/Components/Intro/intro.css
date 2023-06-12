@@ -75,8 +75,9 @@
 
 
 
+
 /* Applying the vertical lines */
-.dgrnDt{
+/* .dgrnDt{
     display: flex;
     flex-direction: column;
     -webkit-box-align: center;
@@ -116,8 +117,16 @@
 .esuDqr ,.svg {
     width: 25px;
     height: 25px;
+} */
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    cursor: pointer;
 }
-
 .svg {
     width: 100%;
     height: 100%;
@@ -156,6 +165,7 @@ div {
     writing-mode: vertical-rl;
     margin: 20px auto;
     padding: 10px;
+    color: black;
 }
 .dvseSq::after {
     content: "";
@@ -164,4 +174,14 @@ div {
     height: 90px;
     margin: 0px auto;
     background-color: rgb(10, 11, 12);
+}
+.gXnnBS{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: 0px;
+    z-index: 10;
+    color: rgb(4, 4, 4);
+    
 }
