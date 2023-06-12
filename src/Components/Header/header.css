@@ -22,3 +22,7 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
+  .contactus-button{
+    background-color: var(--title-color);
+    color: var(--body-color);
+  }
