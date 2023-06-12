@@ -1,5 +1,6 @@
 import React from "react";
 import './intro.css';
+import logo from "../../Images/profile.JPG";
 
 const Intro= () => {
     return (
@@ -9,7 +10,7 @@ const Intro= () => {
         </div>
         
         <div className="main-box-content-right">
-            <img src="public\logo192.png" alt="hello"></img>
+            <img className="profile-picture" src={logo} alt="hello"/>
         </div>
        
         </div>
