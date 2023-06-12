@@ -8,7 +8,6 @@ const Intro= () => {
         <div className="main-box-content-left">
             <span className="user-id">Pranjal Singh</span>
         </div>
-        
         <div className="main-box-content-right">
             <img className="profile-picture" src={logo} alt="hello"/>
         </div>

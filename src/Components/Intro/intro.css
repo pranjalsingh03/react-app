@@ -1,11 +1,11 @@
 .user-id{
-    font-size: 100px;
-    font-weight: 500;
+    font-size: 120px;
+    font-weight: 700;
     color: var(--title-color);
     text-transform: uppercase;
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 62%;
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
@@ -31,8 +31,12 @@
     padding: 0 5rem;
 }
 .profile-picture{
-    height: 240px;
-    width: 240px;
+    height: 320px;
+    width: 320px;
+    position: relative;
+    top: -10%;
+    border-radius: 50%;
+    right: 10px;
 }
 .main-box-content-left{
     position: absolute;
