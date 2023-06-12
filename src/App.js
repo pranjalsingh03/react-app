@@ -1,30 +1,16 @@
 import React from 'react';
 import './App.css';
-import Header from "./Components/header"
-import Footer from "./Components/footer"
+import Header from "./Components/Header/header"
+import Footer from "./Components/Footer/footer"
+import Intro from './Components/Intro/intro';
 
-// const user= {
-//   name: 'Pranjal Singh',
-//   age: 18,
-//   location: 'India'
-//   }
-//   function App() {
-//   return (
-//   <div className="App">
-//   <h1>Hello, {user.name}</h1>
-//   <h2>Age: {user.age}</h2>
-//   <h2>Location: {user.location}</h2>
-//   </div>
-//   );
-// };
 
 
 export default function MyApp() {
   return (
     <div>
       <Header />    {/*Header of the portfolio*/}
-
-
+      <Intro/>
        <Footer/>     {/*//Footer of the portfolio */}
     </div>
   );
