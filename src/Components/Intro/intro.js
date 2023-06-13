@@ -30,8 +30,6 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-
-
             {/* Right side of the div */}
             <div className="main-box-content-right">
                 <img className="profile-picture" src={logo} alt="hello" />
