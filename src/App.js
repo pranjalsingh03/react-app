@@ -10,9 +10,10 @@ export default function MyApp() {
   return (
     <div>
       <Header />    {/*Header of the portfolio*/}
-      <Intro/>
+      <Intro/>       {/* introduction  */}
+      <Home/>       {/*Home page */}
        <Footer/>     {/*//Footer of the portfolio */}
-       <Home/>
+       
     </div>
   );
   }

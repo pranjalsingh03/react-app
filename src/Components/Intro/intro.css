@@ -117,6 +117,7 @@ div {
     margin: 20px auto;
     padding: 0px;
     color: black;
+    font-size: 18px;
 }
 .dvseSq::after {
     content: "";
