@@ -12,7 +12,7 @@ export default function MyApp() {
       <Header />    {/*Header of the portfolio*/}
       <Intro/>       {/* introduction  */}
       <Home/>       {/*Home page */}
-       <Footer/>     {/*//Footer of the portfolio */}
+      <Footer/>     {/*//Footer of the portfolio */}
        
     </div>
   );
