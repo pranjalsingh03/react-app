@@ -59,7 +59,6 @@
     flex-direction: column;
     padding: 0 5rem;
 }
-
 .about-user{
     position: absolute;
     width: 75%;
@@ -72,53 +71,6 @@
     font-size: 26px;
     top: 50%;
 }
-
-
-
-
-/* Applying the vertical lines */
-/* .dgrnDt{
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-.gXnnBS {
-    width: 40px;
-    position: fixed;
-    bottom: 0px;
-    left: 40px;
-    right: auto;
-    z-index: 10;
-    color: rgb(100, 255, 218);
-}
-*, ::before, ::after {
-    box-sizing: inherit;
-}
-.li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-.a {
-    display: inline-block;
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    color: inherit;
-    position: relative;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    cursor: pointer;
-}
-.esuDqr {
-    padding: 10px;
-}
-.esuDqr ,.svg {
-    width: 25px;
-    height: 25px;
-} */
-
 a {
     display: inline-block;
     text-decoration: none;
@@ -134,8 +86,6 @@ a {
     fill: black;
     vertical-align: middle;
 }
-
-
 svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
@@ -186,18 +136,6 @@ div {
     color: rgb(4, 4, 4);
     
 }
-
-
-/* logo styles */
-/* 
-.Image-logo{
-    height: 50px;
-    width: 50px;
-    margin:15px auto;
-} */
-/* .imagelogo{
-    padding: 5px;
-} */
 .Image-logo{
     height: 35px;
     margin: 5px auto;

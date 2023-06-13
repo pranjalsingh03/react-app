@@ -11,9 +11,8 @@ const Intro = () => {
 
         //Main box of introdunction page
         <div className="main-box">
-
-
-            {/* left side of the div */}
+        
+        {/* left side of the div */}
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal</span>
                 <span className="last-name">Singh </span>
