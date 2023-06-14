@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css"
+import profile from "../../Images/profile.JPG"
 
 const Home = () => {
     return (
@@ -19,11 +20,13 @@ const Home = () => {
                         </span>
                     </div>
                 </div>
-                <div className="main-box-area-right">
-                    <div className="main-box-area-right-content">
-                        </div> 
-                </div>
+                
             </div>
+            <div className="main-box-area-right">
+                    <div className="main-box-area-right-content">
+                    <img className="profile-picture" src={profile} alt="hello" />
+                    </div>
+                </div>
         </div>
     )
 }
