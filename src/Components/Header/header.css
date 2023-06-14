@@ -26,4 +26,11 @@
 
   .navbar{
     padding: 0%;
+    transition: background-color .2s;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    z-index: 1030;
   }
