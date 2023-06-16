@@ -19,7 +19,9 @@ const Intro = () => {
                 <div orientation="left"
                     class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
                     <div class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
-                        <img src={github} alt="github" className="Image-logo imagelogo" />
+                        <a href="https://www.facebook.com/magan728">
+                        <img src={github} alt="github" className="Image-logo imagelogo"/></a>     
+                        {/* </img> */}
                         <img src={linkedin} alt="linkedin" className="Image-logo imagelogo" />
                         <img src={instagram} alt="instagram" className="Image-logo imagelogo" />
                         <img src={twitter} alt="twiter" className="Image-logo imagelogo" />
