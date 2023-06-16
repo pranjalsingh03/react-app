@@ -14,7 +14,7 @@ const Intro = () => {
         {/* left side of the div */}
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal Singh</span>
-                <div className="about-user">Hello World! ldfvedskjdsnpranjl singh jdfbunjdvcs ipranjla pranjal singh prabnjsbdasn bjbdfusujdfbnieeurehgbvjs
+                <div className="about-user">Hello World! singh jdfbunjdvcs ipranjla pranjal singh prabnjsbdasn bjbdfusujdfbnieeurehgbvjs
                 </div>
                 <div orientation="left"
                     class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
