@@ -18,14 +18,20 @@ const Intro = () => {
                 </div>
                 <div orientation="left"
                     class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
-                    <div class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
+                    <div 
+                    class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
                         <a href="https://www.facebook.com/magan728">
                         <img src={github} alt="github" className="Image-logo imagelogo"/></a>     
                         {/* </img> */}
-                        <img src={linkedin} alt="linkedin" className="Image-logo imagelogo" />
+                        <a href="https://www.linkedin.com/in/pranjalsingh03/">
+                        <img src={linkedin} alt="linkedin" className="Image-logo imagelogo" /></a>
                         <img src={instagram} alt="instagram" className="Image-logo imagelogo" />
+                        <a href="">
                         <img src={twitter} alt="twiter" className="Image-logo imagelogo" />
+                        </a>
+                        <a href="https://www.facebook.com/magan728">
                         <img src={facebook} alt="facebook" className="facebook-logo imagelogo" />
+                        </a>
                     </div>
                 </div>
             </div>
