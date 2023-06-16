@@ -20,13 +20,13 @@ const Home = () => {
                         </span>
                     </div>
                 </div>
-                
+
             </div>
             <div className="main-box-area-right">
-                    <div className="main-box-area-right-content">
+                <div className="main-box-area-right-content">
                     <img className="profile-picture" src={profile} alt="hello" />
-                    </div>
                 </div>
+            </div>
         </div>
     )
 }
