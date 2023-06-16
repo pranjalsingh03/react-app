@@ -9,11 +9,7 @@
 .main-box-area-left{
     height: 100%;
     width: 50%;
-    /* float: left; */
-    /* background-color: var(--title-color); */
-    /* padding: 0 5rem; */
     display: flex;
-
     flex-direction: column;
     color: black;
 }
