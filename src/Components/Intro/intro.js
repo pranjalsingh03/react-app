@@ -20,12 +20,15 @@ const Intro = () => {
                     class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
                     <div 
                     class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
-                        <a href="https://www.facebook.com/magan728">
-                        <img src={github} alt="github" className="Image-logo imagelogo"/></a>     
-                        {/* </img> */}
+                        <a href="https://github.com/pranjalsingh03">
+                        <img src={github} alt="github" className="Image-logo imagelogo"/>
+                        </a>
                         <a href="https://www.linkedin.com/in/pranjalsingh03/">
-                        <img src={linkedin} alt="linkedin" className="Image-logo imagelogo" /></a>
-                        <img src={instagram} alt="instagram" className="Image-logo imagelogo" />
+                        <img src={linkedin} alt="linkedin" className="Image-logo imagelogo" />
+                        </a>
+                        <a href="https://www.instagram.com/sanatani_magan09/">
+                        <img src={instagram} alt="instagram" className="Image-logo imagelogo"/>
+                        </a>
                         <a href="">
                         <img src={twitter} alt="twiter" className="Image-logo imagelogo" />
                         </a>
