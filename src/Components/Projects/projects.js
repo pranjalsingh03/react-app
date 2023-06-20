@@ -1,9 +1,10 @@
 import React from "react";
+import "./project.css";
 
 const Projects = () => {
 
     return (
-        <div>
+        <div className="main-content-area-box">
             <h1>Projects</h1>
         </div>
     );
