@@ -4,8 +4,9 @@ import "./project.css";
 const Projects = () => {
 
     return (
+        
         <div className="main-content-area-box">
-            <h1>Projects</h1>
+         <h2 className="headline">Projects</h2> 
         </div>
     );
 }
