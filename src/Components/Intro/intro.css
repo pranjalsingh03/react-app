@@ -92,6 +92,7 @@ div {
     padding: 0px;
     color: black;
     font-size: 18px;
+    text-decoration: none;
 }
 .dvseSq::after {
     content: "";
