@@ -11,44 +11,38 @@ const Projects = () => {
                 <div className="project">
                     <h3 className="project-title">Project 1</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <a href="
-                    https://github.com/josephwinston/portfolio" target="_blank"><button
-                            className="project-button">View Code</button></a>
+                        <button className="project-button"><a href="
+                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                 </div>
                 <div className="project">
                     <h3 className="project-title">Project 2</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <a href="
-                    https://github.com/josephwinston/weatherDashboard" target="_blank"><
-                            button className="project-button">View Code</button></a>
+                    <button className="project-button"><a href="
+                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                 </div>
                 <div className="project">
                     <h3 className="project-title">Project 3</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <a href="
-                    https://github.com/josephwinston/workDayScheduler" target="_blank
-                    "><button className="project-button">View Code</button></a>
+                    <button className="project-button"><a href="
+                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                 </div>
                 <div className="project">
                     <h3 className="project-title">Project 4</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <a href="
-                    https://github.com/josephwinston/passwordGenerator" target="_blank"><
-                            button className="project-button">View Code</button></a>
+                    <button className="project-button"><a href="
+                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                 </div>
                 <div className="project">
                     <h3 className="project-title">Project 5</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <a href="
-                https://github.com/josephwinston/passwordGenerator" target="_blank"><
-                            button className="project-button">View Code</button></a>
+                    <button className="project-button"><a href="
+                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                 </div>
                 <div className="project">
                     <h3 className="project-title">Project 6</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <a href="
-                    
-                    " target="_blank"><button className="project-button">View Code</button></a>
+                    <button className="project-button"><a href="
+                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                     </div>
 
                 </div>
