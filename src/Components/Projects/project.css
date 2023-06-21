@@ -1,3 +1,83 @@
 .main-content-area-box{
-    height: auto;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+}
+
+/* Path: src\Components\Projects\project.css */
+.main-content-area-box{
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+}
+@media only screen and (max-width :768px){
+    .main-content-area-box{
+        padding-left: 0%;
+    }
+}
+/* Path: src\Components\Projects\project.css */
+.project{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+.project-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 2%;
+}
+.project-description{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 2%;
+}
+.project-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.project-button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1% 2%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.project-button a:hover{
+    background-color: #000;
+    color: #fff;
+}
+@media only screen and (max-width :768px){
+    .project{
+        padding: 0% 2%;
+    }
+}
+/* Path: src\Components\Projects\project.css */
+.project-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
