@@ -1,5 +1,6 @@
 import React from "react";
 import "./project.css";
+import Projectone from "../../Images/profile.JPG"
 
 const Projects = () => {
 
@@ -7,22 +8,16 @@ const Projects = () => {
 
         <div className="main-content-area-box">
             <h2 className="headline">Projects</h2>
+            <div className="vertical" style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
             <div className="project-box">
-                <div className="project">
-                    
-                    <h3 className="project-title">Project 1</h3>
-                    <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                        <button className="project-button"><a href="
-                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
+                <div className="project-image kaam-dhaam">
+                    <img className="project1" src={Projectone} alt="project"/>
                 </div>
-                <div className="project">
-                    <h3 className="project-title">Project 2</h3>
-                    <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <button className="project-button"><a href="
-                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
-                </div>
+                <div className="project-discription">
+                    <p></p>
                 </div>
             </div>
-            );
+        </div>
+    );
 }
 export default Projects;
