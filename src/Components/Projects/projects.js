@@ -20,30 +20,6 @@ const Projects = () => {
                     <button className="project-button"><a href="
                     https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                 </div>
-                <div className="project">
-                    <h3 className="project-title">Project 3</h3>
-                    <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <button className="project-button"><a href="
-                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
-                </div>
-                <div className="project">
-                    <h3 className="project-title">Project 4</h3>
-                    <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <button className="project-button"><a href="
-                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
-                </div>
-                <div className="project">
-                    <h3 className="project-title">Project 5</h3>
-                    <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <button className="project-button"><a href="
-                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
-                </div>
-                <div className="project">
-                    <h3 className="project-title">Project 6</h3>
-                    <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <button className="project-button"><a href="
-                    https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
-                    </div>
                 </div>
             </div>
             );
