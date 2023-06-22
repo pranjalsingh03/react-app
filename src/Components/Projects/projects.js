@@ -44,10 +44,8 @@ const Projects = () => {
                     <button className="project-button"><a href="
                     https://github.com/josephwinston/portfolio" target="_blank">View Code</a></button>
                     </div>
-
                 </div>
             </div>
             );
 }
-
-            export default Projects;
+export default Projects;
