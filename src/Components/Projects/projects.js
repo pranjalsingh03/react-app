@@ -9,6 +9,7 @@ const Projects = () => {
             <h2 className="headline">Projects</h2>
             <div className="project-box">
                 <div className="project">
+                    
                     <h3 className="project-title">Project 1</h3>
                     <p className="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                         <button className="project-button"><a href="
