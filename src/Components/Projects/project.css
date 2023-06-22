@@ -50,12 +50,6 @@
     background-color: #000;
     color: #fff;
 }
-@media only screen and (max-width :768px){
-    .project{
-        padding: 0% 2%;
-    }
-}
-/* Path: src\Components\Projects\project.css */
 .project-image{
     width: 100%;
     height: 100%;
