@@ -5,7 +5,6 @@ import Projectone from "../../Images/profile.JPG"
 const Projects = () => {
 
     return (
-
         <div className="main-content-area-box">
             <h2 className="headline">Projects</h2>
             <div className="vertical" style={{ borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20 }}></div>
