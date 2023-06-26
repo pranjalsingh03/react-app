@@ -1,5 +1,4 @@
 .main-content-area-box {
-    width: 100%;
     padding-left: 10%;
     padding-bottom: 10%;
 }
@@ -42,13 +41,6 @@
     color: #fff;
 }
 
-.project1 {
-    height: 30%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- } 
 
 .project-button {
     width: 20%;
@@ -68,7 +60,7 @@ element.style {
 .VhaEB {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     -webkit-box-align: center;
     align-items: center;
     margin-bottom: 100px;
@@ -130,34 +122,22 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-top: 10px;
     margin-left: -10px;
-    color: rgb(204, 214, 246);
 }
 
+.project1 {
+    height: 67%;
+    padding-top: 27px;
+    width: 493%;
+    padding-left: 37px;
+}
 
-.krVnlu {
-    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
-    grid-area: 1 / 6 / -1 / -1;
+.enJBDof {
     position: relative;
-    z-index: 1;
-    background-color: rgb(100, 255, 218);
-    border-radius: 4px;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    grid-area: 1 / 1 / -1 / 7;
 }
-a {
-    display: inline-block;
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    color: inherit;
-    position: relative;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    cursor: pointer;
-}
-.kuGvoQ {
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
-    border-radius: 3px;
-    position: relative;
-    mix-blend-mode: multiply;
-    filter: grayscale(100%) contrast(1) brightness(90%);
+.project2 {
+    height: 67%;
+    padding-top: 27px;
+    width: 493%;
+    padding-left: 37px;
 }
