@@ -132,8 +132,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .enJBDof {
+    text-align: right;
     position: relative;
-    grid-area: 1 / 1 / -1 / 7;
+    grid-area: 1 / 5 / -2 / 11;
 }
 .project2 {
     height: 67%;
