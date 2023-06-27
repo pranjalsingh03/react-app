@@ -143,3 +143,24 @@ h1, h2, h3, h4, h5, h6 {
     width: 493%;
     padding-left: 37px;
 }
+
+
+.gRQVKa {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    margin: 10px 32px 40px;
+    white-space: nowrap;
+    font-size: 32px;
+}
+.gRQVKa::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 300px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+    align-self: center;
+}
