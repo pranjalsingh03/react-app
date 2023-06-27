@@ -6,7 +6,8 @@ const Projects = () => {
 
     return (
         <div className="main-content-area-box">
-            <h2 className="headline">Projects</h2>
+            <h3 class="Heading-sc-16ftyqo-0 gRQVKa" data-sr-id="3" >
+                 Some Things I've Built</h3>
             <div class="featured__StyledProject-sc-19vdtah-9 VhaEB"
                 data-sr-id="4">
                 <div class="featured__StyledContent-sc-19vdtah-1 gWlhZI">
@@ -23,7 +24,7 @@ const Projects = () => {
                         {/* <p>Inspired by Adrian Rosebrock's
                             <a href="www.gothub.com" target="_blank" rel="nofollow noopener noreferrer">PyImageSearch Blog</a>
                         </p> */}
-                        
+
                     </div>
 
 
