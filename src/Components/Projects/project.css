@@ -63,7 +63,8 @@ element.style {
     grid-template-columns: repeat(11, 1fr);
     -webkit-box-align: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 18%;
+    margin-top: 80px;
 }
 
 *, ::before, ::after {
@@ -125,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project1 {
-    height: 67%;
+    height: 100%;
     padding-top: 27px;
     width: 493%;
     padding-left: 37px;
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-area: 1 / 5 / -2 / 11;
 }
 .project2 {
-    height: 67%;
+    height: 100%;
     padding-top: 27px;
     width: 493%;
     padding-left: 37px;
