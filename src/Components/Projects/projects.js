@@ -1,6 +1,6 @@
 import React from "react";
 import "./project.css";
-import Projectone from "../../Images/profile.JPG"
+import Projectone from "../../Images/webcalendar.png"
 
 const Projects = () => {
 
