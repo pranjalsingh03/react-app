@@ -10,16 +10,16 @@ const Intro = () => {
     return (
 
         //Main box of introdunction page
-        <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+        // <div id="home" className="intro route bg-image background">
+        // <div id="stars" />
+        // <div id="stars2" />
+        // <div id="stars3" />
         <div className="main-box">
         
         {/* left side of the div */}
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal Singh</span>
-                <div className="about-user">Hello World! singh jdfbunjdvcs ipranjla pranjal singh prabnjsbdasn bjbdfusujdfbnieeurehgbvjs
+                <div className="about-user">Brings ideas to life with code.
                 </div>
                 <div orientation="left"
                     class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
@@ -47,7 +47,7 @@ const Intro = () => {
                 
                 <div orientation="right" class="side__StyledContainer-sc-18y99l7-0 lbtSgG"><div class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done"><a href="mailto:pranjalmagansingh9304@gmail.com" class="email__StyledEmailLink-sc-1fu3fru-1 gduzAh">pranjalmagansingh9304@gmail.com</a></div></div>
             </div>
-            </div>
+            // </div>
     )
 }
 
