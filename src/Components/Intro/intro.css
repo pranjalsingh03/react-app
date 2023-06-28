@@ -116,23 +116,27 @@ div {
     margin:5px auto;
     height: 35px;
 }
+.responsive-logo-intro{
+    display: none;
+}
 
 /* For screen size more than 400px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 48em) {
     .first-name{
-        font-size:60px;
+        font-size:57px;
         padding-left: 0%;
         text-align: center;
         /* color: aliceblue; */
         font-family: 'Hanalei Fill', cursive;
         font-weight: 100;
+        
     }
     .about-user{
         padding-left: 0%;
-        left: 11%;
-        top: 42%;
-        display: flex;
-        width: 62%;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        font-size: 20px;
     }
     .main-box-content-left{
         left: 0%;
@@ -143,7 +147,28 @@ div {
     .lbtSgG{
         display: none;
     }
-    .gXnnBS{
+    .gXnnBS {
         display: none;
     }
+    .responsive-logo-intro{
+        display: block;
+        height: 45px;
+        position: relative;
+        left: 0%;
+        top:0px;
+        filter: opacity(0.5) drop-shadow(0 0 0 rgb(24, 206, 163));
+        width: auto;
+        padding: 5px;
+    }
+    .jsUDeb{
+        width: 100%;
+    }
+    a{
+        height: 45px;
+        position: relative;
+        top:14px;
+        filter: opacity(0.5) drop-shadow(0 0 0 rgb(100, 255, 218));
+        width: auto; 
+    }
+    
   }
