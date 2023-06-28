@@ -11,6 +11,7 @@
   /* ======colors===== */
   --hue: 0;
   --sat: 0%;
+
   --title-color: hsl(var(--hue),var(--sat),20%)
   --title-color-dark: hsl(var(--hue),var(--sat),0%)
   --text-color: hsl(var(--hue),var(--sat),46%)
@@ -24,6 +25,7 @@
   --line-height: 1.6;
   --letter-spacing: 0;
   --text-transform: none;
+  
   } 
 
 
