@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import logo from "../../Images/logo1.png"
 
 
 const Header = () => {
@@ -8,7 +9,9 @@ const Header = () => {
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand"
-          href="https://github.com/pranjalsingh03">Pranjal Singh</a>
+          href="https://github.com/pranjalsingh03">
+            <img src={logo} alt='logo' className='image-logo-header'/>
+          </a>
         <button class="toggle-button">toggle</button>
         <button class="navbar-toggler"
           type="button" data-bs-toggle="collapse"
