@@ -16,10 +16,7 @@ const Projects = () => {
                         <a href="www.link" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link">Web Calendar</a>
                     </h5>
                     <div class="featured__StyledDescription-sc-19vdtah-4 hwxmov">
-                        <p>Face Mask Detection system to detect face masks in static
-                            images as well as in real-time video streams. Own
-                            custom dataset was built using Bing Search API and
-                            Kaggle.</p>
+                        <p>A Web-Calendar which helps human being with lot of information on day-to-day life.</p>
 
                         {/* <p>Inspired by Adrian Rosebrock's
                             <a href="www.gothub.com" target="_blank" rel="nofollow noopener noreferrer">PyImageSearch Blog</a>
