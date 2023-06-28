@@ -20,6 +20,17 @@ const Intro = () => {
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal Singh</span>
                 <div className="about-user">Brings ideas to life with code.
+                <div className="jsUDeb">
+                <a href="https://github.com/pranjalsingh03">
+                        <img src={github} alt="github" className="responsive-logo-intro"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pranjalsingh03/">
+                        <img src={linkedin} alt="linkedin" className="responsive-logo-intro" />
+                        </a>
+                        <a href="https://www.instagram.com/sanatani_magan09/">
+                        <img src={twitter} alt="twiter" className="responsive-logo-intro" />
+                        </a>
+                </div>
                 </div>
                 <div orientation="left"
                     class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
