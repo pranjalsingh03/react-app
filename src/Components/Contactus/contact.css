@@ -41,3 +41,8 @@
     cursor: pointer;
     color: rgb(100, 255, 218);
 }
+
+
+@media screen and (max-width: 48em) {
+    
+}
