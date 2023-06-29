@@ -5,3 +5,9 @@
 .text-center{
     color: rgb(154 154 154);
 }
+
+
+
+@media screen and (max-width: 48em) {
+    
+}
