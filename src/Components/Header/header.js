@@ -34,10 +34,14 @@ const Header = () => {
               <a class="nav-link"
                 href="https://github.com/pranjalsingh03">Projects</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://github.com/pranjalsingh03">Contact Us</a>
+            </li>
           </ul>
           <button class="button contactus-button">
             <a class="nav-link"
-              href="https://github.com/pranjalsingh03">Contact Us</a>
+              href="https://github.com/pranjalsingh03">Resume</a>
           </button>
         </div>
       </div>
