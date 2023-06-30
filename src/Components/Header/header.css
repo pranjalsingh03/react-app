@@ -22,7 +22,7 @@
   .navbar{
     padding: 0%;
     transition: background-color .2s;
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
     padding-left: 1rem!important;
