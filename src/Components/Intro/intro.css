@@ -67,7 +67,8 @@ svg:not(:root) {
     left: auto;
     right: 40px;
     z-index: 10;
-    color: rgb(4, 4, 4);
+    /* color: rgb(4, 4, 4); */
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(4, 255, 196));
 }
 div {
     display: block;
@@ -105,8 +106,8 @@ div {
     left: 40px;
     right: 0px;
     z-index: 10;
-    color: rgb(4, 4, 4);
-    
+    /* color: rgb(4, 4, 4); */
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(4, 255, 196));
 }
 .Image-logo{
     height: 35px;
