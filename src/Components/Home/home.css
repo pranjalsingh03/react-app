@@ -35,7 +35,7 @@
         /* display: flex;
         justify-content: center;
         align-items: center; */
-        width: 100%;
+        width: 90%;
         margin-bottom: 50%;
     }
     .main-box-area-left-content{
@@ -60,7 +60,7 @@
         width: 190px;
         right: 30%;
         position: absolute;
-        top: 166%;
+        top: 170%;
         border-radius:  10% ;
     }
 }
