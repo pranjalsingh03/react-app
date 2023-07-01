@@ -47,6 +47,7 @@
         justify-content: center;
         align-items: center; */
         width: 100%;
+        margin-bottom: 50%;
     }
     .main-box-area-left-content{
         display: flex;
@@ -61,11 +62,16 @@
     .main-box-area-left-content-heading{
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 30px;
+        position: absolute;
+        top: 105%;
     }
     .profile-picture{
-        height: 50px;
-        width: 50px;
-        
+        height: 190px;
+        width: 190px;
+        right: 30%;
+        position: absolute;
+        top: 166%;
+        border-radius:  10% ;
     }
 }
