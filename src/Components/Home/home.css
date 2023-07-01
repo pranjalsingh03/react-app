@@ -22,17 +22,6 @@
     font-weight: 600;
 
 }
-.main-box-content-right{
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 5rem;
-}
 .main-box-area-left-content-heading{
     font-size: 40px;
     font-weight: 600;
