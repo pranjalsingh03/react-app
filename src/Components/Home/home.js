@@ -18,9 +18,7 @@ const Home = () => {
                         </span>
                     </div>
                 </div>
-
             </div>
-           
                     <img className="profile-picture" src={profile} alt="hello" />
                 </div>
         
