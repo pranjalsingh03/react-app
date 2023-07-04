@@ -10,8 +10,8 @@ const Header = () => {
       <div class="container-fluid">
         <a class="navbar-brand"
           href="https://github.com/pranjalsingh03">
-            <img src={logo} alt='logo' className='image-logo-header'/>
-          </a>
+          <img src={logo} alt='logo' className='image-logo-header' />
+        </a>
         <button class="toggle-button">toggle</button>
         <button class="navbar-toggler"
           type="button" data-bs-toggle="collapse"
