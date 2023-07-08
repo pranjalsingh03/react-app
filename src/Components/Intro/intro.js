@@ -9,11 +9,6 @@ import twitter from "../../Images/twitter.svg";
 const Intro = () => {
     return (
 
-        //Main box of introdunction page
-        // <div id="home" className="intro route bg-image background">
-        // <div id="stars" />
-        // <div id="stars2" />
-        // <div id="stars3" />
         <div className="main-box">
         
         {/* left side of the div */}
