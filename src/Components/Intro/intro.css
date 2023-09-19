@@ -2,10 +2,13 @@
     font-size: 100px;
     font-weight: 600;
     color: aliceblue;
-    padding-left: 25%;
     position: absolute;
     top: 30%;
-    pointer-events: none;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+
+
 }
 .main-box{
     position: relative;
