@@ -84,3 +84,13 @@
   border: 1px solid var(--orange);
   color: var(--orange);
 }
+
+
+.dark-theme{
+  background-color: black;
+}
+
+.light-theme{
+  background-color: #61dafb;
+
+}
