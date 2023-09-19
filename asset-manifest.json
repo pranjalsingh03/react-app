@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pranjalsingh03/react-app/static/css/main.b487dbda.css",
+    "main.js": "/pranjalsingh03/react-app/static/js/main.9c806513.js",
+    "static/js/787.1ed0c42c.chunk.js": "/pranjalsingh03/react-app/static/js/787.1ed0c42c.chunk.js",
+    "static/media/webcalendar.png": "/pranjalsingh03/react-app/static/media/webcalendar.bc3ceb0d76cd6908cccb.png",
+    "static/media/profile.JPG": "/pranjalsingh03/react-app/static/media/profile.e5818d340cc9e4e16391.JPG",
+    "static/media/logo1.png": "/pranjalsingh03/react-app/static/media/logo1.adf99becb149729e53b4.png",
+    "index.html": "/pranjalsingh03/react-app/index.html",
+    "static/media/instagram.svg": "/pranjalsingh03/react-app/static/media/instagram.220a5ae3756eb63c8ee0a1aa281de8cc.svg",
+    "static/media/github.svg": "/pranjalsingh03/react-app/static/media/github.2866dc736a0ea47a8da98d67a93be325.svg",
+    "static/media/twitter.svg": "/pranjalsingh03/react-app/static/media/twitter.2913a038d87f1712a6cdfe93a0106a27.svg",
+    "static/media/linkedin.svg": "/pranjalsingh03/react-app/static/media/linkedin.fe2ff82f48c5cb78330947b9b07a3b35.svg",
+    "static/media/facebook.svg": "/pranjalsingh03/react-app/static/media/facebook.971e53097e4398b3756a72fff5d44fc0.svg",
+    "main.b487dbda.css.map": "/pranjalsingh03/react-app/static/css/main.b487dbda.css.map",
+    "main.9c806513.js.map": "/pranjalsingh03/react-app/static/js/main.9c806513.js.map",
+    "787.1ed0c42c.chunk.js.map": "/pranjalsingh03/react-app/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b487dbda.css",
+    "static/js/main.9c806513.js"
+  ]
+}
