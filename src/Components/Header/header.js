@@ -4,8 +4,6 @@ import logo from "../../Images/logo1.png"
 import { useState, useEffect } from "react";
 
 
-
-  
 const Header = () => {
 
   const [theme ,setTheme]= useState("light-theme");
