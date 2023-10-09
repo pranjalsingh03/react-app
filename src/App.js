@@ -23,7 +23,6 @@ export default function MyApp() {
       <Projects/>    {/* Project page */}
       <ContactUs/>
       <Footer/>     {/*//Footer of the portfolio */}
-       
     </div>
   );
   }
