@@ -3,14 +3,9 @@
        padding: 10px;
 }
 .text-center{
-    color: rgb(154 154 154);
+    color: var(--adrakcolor);
 }
-footer{
-    color: black;
-}
-.footer-class{
-    background-color: rgb(16, 16, 16);
-}
+
 
 
 @media screen and (max-width: 48em) {
