@@ -12,12 +12,12 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    color: black;
+    /* color: black; */
 }
 .main-box-area-left-content{
     width: 75%;
     height: 100%;
-    color: rgb(154 154 154);
+    color: var(--allsubhed);
     font-size: 20px;
     font-weight: 600;
 
@@ -26,7 +26,7 @@
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: white;
+    /* color: var(--allsubhed); */
 }
 
 
