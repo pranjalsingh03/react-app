@@ -1,8 +1,9 @@
 {
+  "homepage": "http://pranjalsingh03.github.io/react-app", 
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pranjalsingh03.github.io/react-app", 
+  
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
