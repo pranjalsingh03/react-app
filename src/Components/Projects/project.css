@@ -81,7 +81,7 @@ element.style {
 .dZTpBf {
     font-size: 13px;
     font-weight: normal;
-    color: rgb(100, 255, 218);
+    color: var(--allsubhed);
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     margin-top: 10px;
     padding-top: 0px;
@@ -89,7 +89,7 @@ element.style {
 .jRnWTV {
     font-size: 28px;
     margin: 0px 0px 20px;
-    color: rgb(204, 214, 246);
+    color: var(--adrakcolor);
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 32px 40px;
     white-space: nowrap;
     font-size: 32px;
+    color: var(--adrakcolor);
 }
 .gRQVKa::after {
     content: "";
