@@ -1,7 +1,7 @@
 .first-name{
     font-size: 100px;
     font-weight: 600;
-    color: aliceblue;
+    color:var(--adrakcolor);
     position: absolute;
     top: 30%;
     left: 30%;
@@ -34,11 +34,21 @@
     background-color: var(--title-color);
     display: flex;
 }
-.about-user{
+/* .about-user{
     position: absolute;
     width: 37%;
     height: 100%;
-    color:rgb(100, 255, 218);
+    color:var(--all-subhead);
+    left: 29%;
+    font-size: 26px;
+    top: 50%;
+    text-align: center;
+} */
+.about-me{
+    position: absolute;
+    width: 37%;
+    height: 100%;
+    color:var(--aboutcolor);
     left: 29%;
     font-size: 26px;
     top: 50%;
@@ -70,7 +80,7 @@ svg:not(:root) {
     left: auto;
     right: 40px;
     z-index: 10;
-    filter: opacity(0.5) drop-shadow(0 0 0 rgb(4, 255, 196));
+    filter: opacity(0.5) drop-shadow(0 0 0 var(--aboutcolor));
 }
 div {
     display: block;
@@ -108,7 +118,8 @@ div {
     left: 40px;
     right: 0px;
     z-index: 10;
-    filter: opacity(0.5) drop-shadow(0 0 0 rgb(4, 255, 196));
+    filter: opacity(0.5) drop-shadow(0 0 0 var(--aboutcolor));
+    /* color: var(--aboutcolor); */
 }
 .Image-logo{
     height: 35px;
