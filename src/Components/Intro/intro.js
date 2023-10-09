@@ -14,7 +14,7 @@ const Intro = () => {
             {/* left side of the div */}
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal Singh</span>
-                <div className="about-user">Brings ideas to life with code.
+                <div className="about-user"><p className="about-me"> Brings ideas to life with code.</p>
                     <div className="jsUDeb">
                         <a href="https://github.com/pranjalsingh03">
                             <img src={github} alt="github" className="responsive-logo-intro" />
