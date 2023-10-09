@@ -3,6 +3,9 @@ import './header.css';
 import logo from "../../Images/logo1.png"
 import { useState, useEffect } from "react";
 
+import {ReactComponent as Sun} from "./Sun.svg"
+import {ReactComponent as Moon} from "./Moon.svg"
+
 
 const Header = () => {
 
@@ -26,9 +29,25 @@ const Header = () => {
           href="https://github.com/pranjalsingh03">
           <img src={logo} alt='logo' className='image-logo-header' />
         </a>
-        <a href='#' className='btn' onClick={()=> togglethemes()}>
-          toggle
-        </a>
+        {/* <a href='#' className='btn' onClick={()=> togglethemes()}>
+        <label className='dark_mode_label' for='darkmode-toggle'>
+                <Sun />
+                <Moon />
+            </label>
+        </a> */}
+
+        <div className='dark_mode'>
+            <input
+                className='dark_mode_input'
+                type='checkbox'
+                id='darkmode-toggle'
+                onClick={()=> togglethemes()}
+            />
+            <label className='dark_mode_label' for='darkmode-toggle'>
+                <Sun />
+                <Moon />
+            </label>
+        </div>
                 <button class="navbar-toggler"
           type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
