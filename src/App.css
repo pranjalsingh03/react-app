@@ -17,6 +17,9 @@
   --text-color: hsl(var(--hue),var(--sat),46%)
   --body-color: hsl(var(--hue),var(--sat),98%)
   --container-color:#fff;
+  --adrakcolor:red;
+  --allsubhed:white;
+  --aboutcolor:white;
 
   /* ======fonts and typography===== */
   --font-family: 'Poppins', sans-serif;
@@ -28,7 +31,20 @@
   
   } 
 
-
+  .dark-theme{
+    background-color: black;
+    --adrakcolor:white;
+    --allsubhed:rgb(192, 209, 205);
+    --aboutcolor: rgb(100, 255, 218);
+  }
+  
+  .light-theme{
+    background-color: #61dafb;
+    --adrakcolor:black;
+    --allsubhed:rgb(34 40 125);
+    --aboutcolor: rgb(12, 12, 12);
+  
+  }
 
 .App {
   text-align: center;
@@ -87,11 +103,9 @@
 
 /*  Dark theme and light theme */
 
-.dark-theme{
-  background-color: black;
+
+
+*{
+  transition: all 0.3s ease-in-out;
 }
 
-.light-theme{
-  background-color: #61dafb;
-
-}
