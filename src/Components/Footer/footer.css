@@ -1,0 +1,13 @@
+.bg-light{
+    background-color: transparent;
+       padding: 10px;
+}
+.text-center{
+    color: var(--adrakcolor);
+}
+
+
+
+@media screen and (max-width: 48em) {
+    
+}
