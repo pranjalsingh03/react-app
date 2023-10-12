@@ -36,16 +36,13 @@ const Projects = () => {
                 <div class="featured__StyledContent-sc-19vdtah-1 enJBDof">
                     <h4 class="featured__StyledLabel-sc-19vdtah-2 dZTpBf">Featured Project</h4>
                     <h5 class="featured__StyledProjectName-sc-19vdtah-3 jRnWTV">
-                        <a href="www.link" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link">Face Mask Detection</a>
+                        <a href="www.link" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link">Kavach App</a>
                     </h5>
                     <div class="featured__StyledDescription-sc-19vdtah-4 hwxmov">
-                        <p>Face Mask Detection system to detect face masks in static
-                            images as well as in real-time video streams. Own
-                            custom dataset was built using Bing Search API and
-                            Kaggle.</p>
-                        <p>Inspired by Adrian Rosebrock's
+                        <p>I have created this app in a cybersecurity hackathon. It will help the people with macilinous links and spam calls.</p>
+                        {/* <p>Inspired by Adrian Rosebrock's
                             <a href="www.gothub.com" target="_blank" rel="nofollow noopener noreferrer">PyImageSearch Blog</a>
-                        </p>
+                        </p> */}
                     </div>
 
 
