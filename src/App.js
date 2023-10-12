@@ -6,7 +6,7 @@ import Intro from './Components/Intro/intro';
 import Home from "./Components/Home/home";
 import Projects from './Components/Projects/projects';
 import ContactUs from './Components/Contactus/contact';
-import Review from './Components/Reviews/review';
+// import Review from './Components/Reviews/review';
 
 
 
