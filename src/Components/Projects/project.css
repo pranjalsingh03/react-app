@@ -168,5 +168,35 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media screen and (max-width: 48em) {
-    
+    .gRQVKa{
+        font-size: 30px;
+        left: -6%;
+    }
+    .gWlhZI{
+        right: 45%;
+        width: 125%;
+    }
+    .dZTpBf{
+        font-size: 12px;
+    }
+    .VhaEB{
+        grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    text-align: center;
+    }
+    .project1{
+        opacity: 0.25s;
+        display: none;
+    }
+    .project2{
+        display: none;
+    }
+    .enJBDof{
+        right: 45%;
+        width: 125%;
+    }
+    .main-content-area-box {
+        padding-left: 3%;
+        padding-bottom: 10%;
+    }
 }

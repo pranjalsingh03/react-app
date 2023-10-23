@@ -35,7 +35,7 @@
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     margin-top: 50px;
-    margin-bottom: 130px;
+    margin-bottom: 160px;
 }
 .gUsVuV a {
     display: inline-block;
@@ -49,5 +49,14 @@
 
 
 @media screen and (max-width: 48em) {
-    
+    .gUsVuV{
+        font-size: 19px;
+    }
+    .njaJNje{
+        font-size: 50px;
+    }
+    .dXyrwW{
+        font-size: 12px;
+        margin-top: 20px;
+    }
 }

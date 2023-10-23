@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 20%;
     padding-bottom: 15%;
 }
 .main-box-area-left{
@@ -50,14 +50,14 @@
         align-items: center;
         font-size: 30px;
         position: absolute;
-        top: 105%;
+        top: 100%;
     }
     .profile-picture{
         height: 190px;
         width: 190px;
         right: 30%;
         position: absolute;
-        top: 170%;
+        top: 178%;
         border-radius:  10% ;
     }
 }

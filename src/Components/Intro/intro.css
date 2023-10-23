@@ -1,16 +1,15 @@
-.first-name{
+.first-name {
     font-size: 100px;
     font-weight: 600;
-    color:var(--adrakcolor);
+    color: var(--adrakcolor);
     position: absolute;
     top: 30%;
     left: 30%;
     display: flex;
     justify-content: center;
-
-
 }
-.main-box{
+
+.main-box {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -18,7 +17,7 @@
     overflow: hidden;
 }
 
-.profile-picture{
+.profile-picture {
     height: 320px;
     width: 320px;
     position: relative;
@@ -26,7 +25,8 @@
     border-radius: 50%;
     right: 60px;
 }
-.main-box-content-left{
+
+.main-box-content-left {
     position: absolute;
     /* left: 60px; */
     width: 100%;
@@ -34,26 +34,17 @@
     background-color: var(--title-color);
     display: flex;
 }
-/* .about-user{
+
+.about-me {
     position: absolute;
     width: 37%;
-    height: 100%;
-    color:var(--all-subhead);
-    left: 29%;
-    font-size: 26px;
-    top: 50%;
-    text-align: center;
-} */
-.about-me{
-    position: absolute;
-    width: 37%;
-    height: 100%;
-    color:var(--aboutcolor);
+    color: var(--aboutcolor);
     left: 29%;
     font-size: 26px;
     top: 50%;
     text-align: center;
 }
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -63,16 +54,19 @@ a {
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     cursor: pointer;
 }
+
 .svg {
     width: 100%;
     height: 100%;
     fill: black;
     vertical-align: middle;
 }
+
 svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
 }
+
 .lbtSgG {
     width: 40px;
     position: fixed;
@@ -82,9 +76,11 @@ svg:not(:root) {
     z-index: 10;
     filter: opacity(0.5) drop-shadow(0 0 0 var(--aboutcolor));
 }
+
 div {
     display: block;
 }
+
 .dvseSq {
     display: flex;
     flex-direction: column;
@@ -92,8 +88,10 @@ div {
     align-items: center;
     position: relative;
 }
+
 .gduzAh {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+        "Lucida Console", Monaco, monospace;
     letter-spacing: 0.1em;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
@@ -103,6 +101,7 @@ div {
     font-size: 18px;
     text-decoration: none;
 }
+
 .dvseSq::after {
     content: "";
     display: block;
@@ -111,7 +110,8 @@ div {
     margin: 0px auto;
     background-color: rgb(10, 11, 12);
 }
-.gXnnBS{
+
+.gXnnBS {
     width: 40px;
     position: fixed;
     bottom: 0px;
@@ -121,66 +121,72 @@ div {
     filter: opacity(0.5) drop-shadow(0 0 0 var(--aboutcolor));
     /* color: var(--aboutcolor); */
 }
-.Image-logo{
+
+.Image-logo {
     height: 35px;
     margin: 5px auto;
 }
-.facebook-logo{
-    margin:5px auto;
+
+.facebook-logo {
+    margin: 5px auto;
     height: 35px;
 }
-.responsive-logo-intro{
+
+.responsive-logo-intro {
     display: none;
 }
 
-
-
 /* For screen size more than 400px */
 @media screen and (max-width: 48em) {
-    .first-name{
-        font-size:57px;
+    .first-name {
+        font-size: 57px;
         padding-left: 0%;
         text-align: center;
-        font-family: 'Hanalei Fill', cursive;
+        font-family: "Hanalei Fill", cursive;
         font-weight: 100;
-        
+        left: 25px;
+        position: absolute;
+        top: 22%;
     }
-    .about-user{
-        padding-left: 0%;
-        left: 0%;
-        top: 42%;
-        width: 100%;
-        font-size: 20px;
+
+    .about-me {
+        position: absolute;
+        top: 36%;
     }
-    .main-box-content-left{
+
+    .main-box-content-left {
         left: 0%;
-        padding-left: 7%;
+        /* padding-left: 7%; */
         text-align: center;
     }
-    .lbtSgG{
+
+    .lbtSgG {
         display: none;
     }
+
     .gXnnBS {
         display: none;
     }
-    .responsive-logo-intro{
+
+    .responsive-logo-intro {
         display: block;
         height: 45px;
         position: relative;
         left: 0%;
-        top:0px;
+        top: 0px;
         filter: opacity(0.5) drop-shadow(0 0 0 rgb(4, 255, 196));
         width: auto;
         padding: 5px;
     }
-    .jsUDeb{
+
+    .jsUDeb {
+        position: absolute;
+        top: 60%;
+
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    a{
-        height: 45px;
-        position: relative;
-        top:14px;
-        width: auto; 
-    }
-    
-  }
+
+}
