@@ -40,8 +40,8 @@
   
   .light-theme{
     background-color: #61dafb;
-    --adrakcolor:black;
-    --allsubhed:rgb(34 40 125);
+    --adrakcolor:#3e4e61;
+    --allsubhed:rgb(23 26 82);
     --aboutcolor: rgb(12, 12, 12);
   
   }
