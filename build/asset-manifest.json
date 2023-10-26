@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/pranjalmagan/static/css/main.5f3cc36c.css",
-    "main.js": "/pranjalmagan/static/js/main.bc73a347.js",
-    "static/js/787.1ed0c42c.chunk.js": "/pranjalmagan/static/js/787.1ed0c42c.chunk.js",
-    "static/media/webcalendar.png": "/pranjalmagan/static/media/webcalendar.bc3ceb0d76cd6908cccb.png",
-    "static/media/profile.JPG": "/pranjalmagan/static/media/profile.e5818d340cc9e4e16391.JPG",
-    "static/media/kavachphoto.jpg": "/pranjalmagan/static/media/kavachphoto.e27edfbc9068e1f7b2be.jpg",
-    "static/media/flipkartclone.jpg": "/pranjalmagan/static/media/flipkartclone.4f77f8dcde9d81ec31b5.jpg",
-    "static/media/logo1.png": "/pranjalmagan/static/media/logo1.adf99becb149729e53b4.png",
-    "static/media/Sun.svg": "/pranjalmagan/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
-    "index.html": "/pranjalmagan/index.html",
-    "static/media/instagram.svg": "/pranjalmagan/static/media/instagram.220a5ae3756eb63c8ee0a1aa281de8cc.svg",
-    "static/media/Moon.svg": "/pranjalmagan/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
-    "static/media/github.svg": "/pranjalmagan/static/media/github.2866dc736a0ea47a8da98d67a93be325.svg",
-    "static/media/twitter.svg": "/pranjalmagan/static/media/twitter.2913a038d87f1712a6cdfe93a0106a27.svg",
-    "static/media/linkedin.svg": "/pranjalmagan/static/media/linkedin.fe2ff82f48c5cb78330947b9b07a3b35.svg",
-    "static/media/facebook.svg": "/pranjalmagan/static/media/facebook.971e53097e4398b3756a72fff5d44fc0.svg",
-    "main.5f3cc36c.css.map": "/pranjalmagan/static/css/main.5f3cc36c.css.map",
-    "main.bc73a347.js.map": "/pranjalmagan/static/js/main.bc73a347.js.map",
-    "787.1ed0c42c.chunk.js.map": "/pranjalmagan/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-app/static/css/main.5f3cc36c.css",
+    "main.js": "/react-app/static/js/main.5c1a1628.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-app/static/js/787.1ed0c42c.chunk.js",
+    "static/media/webcalendar.png": "/react-app/static/media/webcalendar.bc3ceb0d76cd6908cccb.png",
+    "static/media/profile.JPG": "/react-app/static/media/profile.e5818d340cc9e4e16391.JPG",
+    "static/media/kavachphoto.jpg": "/react-app/static/media/kavachphoto.e27edfbc9068e1f7b2be.jpg",
+    "static/media/flipkartclone.jpg": "/react-app/static/media/flipkartclone.4f77f8dcde9d81ec31b5.jpg",
+    "static/media/logo1.png": "/react-app/static/media/logo1.adf99becb149729e53b4.png",
+    "static/media/Sun.svg": "/react-app/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "index.html": "/react-app/index.html",
+    "static/media/instagram.svg": "/react-app/static/media/instagram.220a5ae3756eb63c8ee0a1aa281de8cc.svg",
+    "static/media/Moon.svg": "/react-app/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "static/media/github.svg": "/react-app/static/media/github.2866dc736a0ea47a8da98d67a93be325.svg",
+    "static/media/twitter.svg": "/react-app/static/media/twitter.2913a038d87f1712a6cdfe93a0106a27.svg",
+    "static/media/linkedin.svg": "/react-app/static/media/linkedin.fe2ff82f48c5cb78330947b9b07a3b35.svg",
+    "static/media/facebook.svg": "/react-app/static/media/facebook.971e53097e4398b3756a72fff5d44fc0.svg",
+    "main.5f3cc36c.css.map": "/react-app/static/css/main.5f3cc36c.css.map",
+    "main.5c1a1628.js.map": "/react-app/static/js/main.5c1a1628.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-app/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f3cc36c.css",
-    "static/js/main.bc73a347.js"
+    "static/js/main.5c1a1628.js"
   ]
 }
