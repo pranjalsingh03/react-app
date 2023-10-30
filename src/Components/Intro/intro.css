@@ -27,12 +27,11 @@
 }
 
 .main-box-content-left {
-    position: absolute;
-    /* left: 60px; */
     width: 100%;
     height: 100%;
     background-color: var(--title-color);
     display: flex;
+    justify-content: center;
 }
 
 .about-me {
@@ -137,7 +136,7 @@ div {
 }
 
 /* For screen size more than 400px */
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 780px) {
     .first-name {
         font-size: 57px;
         padding-left: 0%;
@@ -155,8 +154,6 @@ div {
     }
 
     .main-box-content-left {
-        left: 0%;
-        /* padding-left: 7%; */
         text-align: center;
     }
 
@@ -180,13 +177,12 @@ div {
     }
 
     .jsUDeb {
-        position: absolute;
+        position: relative;
         top: 60%;
 
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
 }

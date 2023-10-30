@@ -30,7 +30,7 @@
 }
 
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 780px) {
     .main-box-area-left{
         width: 90%;
         margin-bottom: 50%;
@@ -57,7 +57,7 @@
         width: 190px;
         right: 30%;
         position: absolute;
-        top: 178%;
-        border-radius:  10% ;
+        top: 164%;
+        border-radius:  18% ;
     }
 }

@@ -43,7 +43,7 @@
 
 
   /* For screen size more than 400px */
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 780px) {
   .image-logo-header{
     height: 45px;
     border-radius: 30px;
