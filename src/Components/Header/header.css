@@ -27,6 +27,8 @@
     padding-left: 1rem!important;
     padding-right: 1rem!important;
     z-index: 1030;
+    transition: padding-top .3s,padding-bottom .3s;
+    
   }
   .image-logo-header{
     height: 45px;
