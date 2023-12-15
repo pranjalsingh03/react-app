@@ -17,14 +17,6 @@
     overflow: hidden;
 }
 
-.profile-picture {
-    height: 320px;
-    width: 320px;
-    position: relative;
-    top: -10%;
-    border-radius: 50%;
-    right: 60px;
-}
 
 .main-box-content-left {
     width: 100%;
