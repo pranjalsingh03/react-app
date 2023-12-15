@@ -1,11 +1,12 @@
 .main-box-area{
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20%;
     padding-bottom: 15%;
+    padding-left: 6rem;
 }
 .main-box-area-left{
     height: 100%;
@@ -22,11 +23,28 @@
     font-weight: 600;
 
 }
-.main-box-area-left-content-heading{
+.main-box-area-left-content-heading-text{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 1rem;
-    /* color: var(--allsubhed); */
+    color: var(--allsubhed);
+}
+.profile-picture{
+    height: 20rem;
+    width: 20rem;
+    border-radius:  18% ;
+    position: relative;
+    left: 6rem;
+    top: 3rem;
+
+}
+
+.main-box-area-left-content-para-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--allsubhed);
+
 }
 
 
@@ -53,11 +71,38 @@
         top: 100%;
     }
     .profile-picture{
-        height: 190px;
-        width: 190px;
-        right: 30%;
-        position: absolute;
-        top: 164%;
+        height: 12rem;
+        width: 13rem;
+        left: 6rem;
+        position: relative;
+        top: 1rem;
         border-radius:  18% ;
     }
 }
+.main-box-area-left-content-para-text{
+    font-size:1rem;
+    padding-left: 0%;
+}
+.main-box-area{
+    padding-left: 0.5rem;
+}
+
+
+/* 
+
+<section class="py-4 py-xl-5">
+    <div class="container">
+        <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="text-white p-4 p-md-5">
+                        <h2 class="fw-bold text-white mb-3">Biben dum fringi dictum, augue purus</h2>
+                        <p class="mb-4">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p>
+                        <div class="my-3"><a class="btn btn-primary btn-lg me-2" role="button" href="#">Button</a><a class="btn btn-light btn-lg" role="button" href="#">Button</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img class="w-100 h-100 fit-cover" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
+            </div>
+        </div>
+    </div>
+</section> */
