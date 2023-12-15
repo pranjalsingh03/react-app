@@ -6,7 +6,7 @@
     align-items: center;
     padding-top: 20%;
     padding-bottom: 15%;
-    padding-left: 6rem;
+    padding-left: 13rem;
 }
 .main-box-area-left{
     height: 100%;
@@ -78,14 +78,15 @@
         top: 1rem;
         border-radius:  18% ;
     }
+    .main-box-area-left-content-para-text{
+        font-size:1rem;
+        padding-left: 0%;
+    }
+    .main-box-area{
+        padding-left: 0.5rem;
+    }
 }
-.main-box-area-left-content-para-text{
-    font-size:1rem;
-    padding-left: 0%;
-}
-.main-box-area{
-    padding-left: 0.5rem;
-}
+
 
 
 /* 
