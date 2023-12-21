@@ -28,9 +28,9 @@ const Intro = () => {
                     </div>
                 </div>
                 <div orientation="left"
-                    class="side__StyledContainer-sc-18y99l7-0 gXnnBS">
+                    className="side__StyledContainer-sc-18y99l7-0 gXnnBS">
                     <div
-                        class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
+                        className="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
                         <a href="https://github.com/pranjalsingh03">
                             <img src={github} alt="github" className="Image-logo imagelogo" />
                         </a>
