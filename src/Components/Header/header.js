@@ -1,10 +1,21 @@
 import React from 'react';
 import './header.css';
+import Intro from '../Intro/intro';
+import Home from "../Home/home";
+import ContactUs from '../Contactus/contact';
+
 import logo from "../../Images/logo1.png"
 import { useState, useEffect } from "react";
+import {
+  BrowserRouter as Router, 
+  Link,
+  Route,
+  Routes,
+ } from 'react-router-dom';
 
 import {ReactComponent as Sun} from "./Sun.svg"
 import {ReactComponent as Moon} from "./Moon.svg"
+import Projects from '../Projects/projects';
 
 
 const Header = () => {
@@ -22,7 +33,8 @@ const Header = () => {
     document.body.className=theme;
   },[theme]);
   return (
-
+<>
+<Router>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand"
@@ -58,30 +70,54 @@ const Header = () => {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page"
-                href="https://github.com/pranjalsingh03">Home</a>
+              <Link class="nav-link" aria-current="page"
+                to="/about">Home</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-                href="https://github.com/pranjalsingh03">About</a>
+              <Link class="nav-link"
+                to="/about">About</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-                href="https://github.com/pranjalsingh03">Projects</a>
+              <Link class="nav-link"
+                to="/projects">Projects</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link"
-                href="https://github.com/pranjalsingh03">Contact Us</a>
+              <Link class="nav-link"
+                to="/contact">Contact Us</Link>
             </li>
           </ul>
           <button class="button contactus-button">
-            <a class="nav-link"
-              href="https://github.com/pranjalsingh03">Resume</a>
+            <Link class="nav-link"
+              to="/home">Resume</Link>
           </button>
         </div>
       </div>
     </nav>
-
+    
+    <Routes>
+                        <Route
+                            exact
+                            path="/"
+                            element={<Intro />}
+                        ></Route>
+                        <Route
+                            exact
+                            path="/about"
+                            element={<Intro />}
+                        ></Route>
+                        <Route
+                            exact
+                            path="/contact"
+                            element={<ContactUs />}
+                        ></Route>
+                        <Route
+                            exact
+                            path="/project"
+                            element={<Projects />}
+                        ></Route>
+                    </Routes>
+    </Router>
+    </>
   )
 }
 
