@@ -12,7 +12,7 @@ import Review from './Components/Reviews/review';
 
 export default function MyApp() {
   return (
-    <div>
+    <>
       <div id="home" className="intro route bg-image background">
         <div id="stars" />
         <div id="stars2" />
@@ -24,8 +24,7 @@ export default function MyApp() {
       <Projects/>    {/* Project page */}
       <Review/>
       <ContactUs/>
-      
       <Footer/>     {/*//Footer of the portfolio */}
-    </div>
+      </>
   );
   }
