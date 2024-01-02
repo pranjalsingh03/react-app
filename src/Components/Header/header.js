@@ -1,9 +1,7 @@
 import React from 'react';
 import './header.css';
 import Intro from '../Intro/intro';
-import Home from "../Home/home";
 import ContactUs from '../Contactus/contact';
-
 import logo from "../../Images/logo1.png"
 import { useState, useEffect } from "react";
 import {
@@ -12,7 +10,6 @@ import {
   Route,
   Routes,
  } from 'react-router-dom';
-
 import {ReactComponent as Sun} from "./Sun.svg"
 import {ReactComponent as Moon} from "./Moon.svg"
 import Projects from '../Projects/projects';
