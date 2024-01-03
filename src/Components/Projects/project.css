@@ -67,9 +67,6 @@ element.style {
     margin-top: 80px;
 }
 
-*, ::before, ::after {
-    box-sizing: inherit;
-}
 
 .gWlhZI {
     position: relative;
