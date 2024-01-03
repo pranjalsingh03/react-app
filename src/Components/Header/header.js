@@ -17,12 +17,12 @@ import Projects from '../Projects/projects';
 
 const Header = () => {
 
-  const [theme ,setTheme]= useState("light-theme");
+  const [theme ,setTheme]= useState("dark-theme");
   const togglethemes = () =>{
-    if(theme === "light-theme"){
-      setTheme("dark-theme");
-    }else{
+    if(theme === "dark-theme"){
       setTheme("light-theme");
+    }else{
+      setTheme("dark-theme");
     }
   };
 
@@ -32,64 +32,50 @@ const Header = () => {
   return (
 <>
 <Router>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand"
-          href="https://github.com/pranjalsingh03">
-          <img src={logo} alt='logo' className='image-logo-header' />
-        </a>
-        {/* <a href='#' className='btn' onClick={()=> togglethemes()}>
-        <label className='dark_mode_label' for='darkmode-toggle'>
-                <Sun />
-                <Moon />
-            </label>
-        </a> */}
-
-        <div className='dark_mode'>
-            <input
-                className='dark_mode_input'
-                type='checkbox'
-                id='darkmode-toggle'
-                onClick={()=> togglethemes()}
-            />
-            <label className='dark_mode_label' for='darkmode-toggle'>
-                <Sun />
-                <Moon />
-            </label>
-        </div>
-                <button class="navbar-toggler"
-          type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <Link class="nav-link" aria-current="page"
-                to="/about">Home</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link"
-                to="/about">About</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link"
-                to="/projects">Projects</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link"
-                to="/contact">Contact Us</Link>
-            </li>
-          </ul>
-          <button class="button contactus-button">
-            <Link class="nav-link"
-              to="/home">Resume</Link>
-          </button>
-        </div>
+    <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="container-fluid">
+      <a className="navbar-brand" href="https://github.com/pranjalsingh03">
+        <img src={logo} alt='logo' className='image-logo-header' />
+      </a>
+      <div className='dark_mode'>
+        <input
+          className='dark_mode_input'
+          type='checkbox'
+          id='darkmode-toggle'
+          onClick={() => togglethemes()}
+        />
+        <label className='dark_mode_label' htmlFor='darkmode-toggle'>
+          <Moon /><Sun />
+        </label>
       </div>
-    </nav>
+      <button className="navbar-toggler"
+        type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul className="navbar-nav ms-auto">
+          <li className="nav-item">
+            <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">About</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/projects">Projects</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact">Contact Us</Link>
+          </li>
+        </ul>
+        <button className="button contactus-button">
+          <Link className="nav-link" to="/resume">Resume</Link>
+        </button>
+      </div>
+    </div>
+  </nav>
     
     <Routes>
                         <Route
