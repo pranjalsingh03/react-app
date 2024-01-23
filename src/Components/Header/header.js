@@ -1,18 +1,9 @@
 import React from 'react';
 import './header.css';
-import Intro from '../Intro/intro';
-import ContactUs from '../Contactus/contact';
 import logo from "../../Images/logo1.png"
 import { useState, useEffect } from "react";
-import {
-  BrowserRouter as Router, 
-  Link,
-  Route,
-  Routes,
- } from 'react-router-dom';
 import {ReactComponent as Sun} from "./Sun.svg"
 import {ReactComponent as Moon} from "./Moon.svg"
-import Projects from '../Projects/projects';
 
 
 const Header = () => {
@@ -31,7 +22,6 @@ const Header = () => {
   },[theme]);
   return (
 <>
-<Router>
     <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container-fluid">
       <a className="navbar-brand" href="https://github.com/pranjalsingh03">
@@ -56,52 +46,28 @@ const Header = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul className="navbar-nav ms-auto">
+        <ul className="navbar-nav ms-auto ">
           <li className="nav-item">
-            <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+            <a className="nav-a" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <a className="nav-a" href="/">About</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/projects">Projects</Link>
+            <a className="nav-a" href="/">Projects</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact Us</Link>
+            <a className="nav-a" href="/">Contact Us</a>
           </li>
         </ul>
         <button className="button contactus-button">
-          <Link className="nav-link" to="/resume">Resume</Link>
+          <a className="nav-a" href="/">Resume</a>
         </button>
       </div>
     </div>
   </nav>
-    
-    <Routes>
-                        <Route
-                            exact
-                            path="/"
-                            element={<Intro />}
-                        ></Route>
-                        <Route
-                            exact
-                            path="/about"
-                            element={<Intro />}
-                        ></Route>
-                        <Route
-                            exact
-                            path="/contact"
-                            element={<ContactUs />}
-                        ></Route>
-                        <Route
-                            exact
-                            path="/project"
-                            element={<Projects />}
-                        ></Route>
-                    </Routes>
-    </Router>
     </>
-  )
+  );
 }
 
 export default Header;

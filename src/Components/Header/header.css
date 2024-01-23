@@ -35,36 +35,18 @@
     border-radius: 30px;
     box-shadow: 0px 0px 15px lightblue;
   }
-  .nav-link{
+  .nav-a{
     color: var(--adrakcolor);
   }
-  
-  .nav-link:hover{
+  .nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav-a:hover{
     color: rgb(55, 130, 197);
   }
 
-
-  /* For screen size more than 400px */
-@media screen and (max-width: 780px) {
-  .image-logo-header{
-    height: 45px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 15px lightblue;
-  }
-  .toggle-button{
-    position: relative;
-  }
-}
-
-
-
-
-
-
-
-
-
-
+  
 .dark_mode {
   margin-top: -30px;
   margin-left: 10px;
@@ -129,4 +111,17 @@
 }
 .dark_mode_input:checked + .dark_mode_label svg.moon {
   fill: #fff;
+}
+
+
+  /* For screen size more than 400px */
+@media screen and (max-width: 780px) {
+  .image-logo-header{
+    height: 45px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px lightblue;
+  }
+  .toggle-button{
+    position: relative;
+  }
 }
