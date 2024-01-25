@@ -4,7 +4,7 @@ import profile from "../../Images/profile.JPG"
 
 const Home = () => {
     return (
-                <div className="main-box-area" >
+                <div className="main-box-area">
                     <div className="row g-0">
                         <div className="col-md-6">
                             <div className="main-box-area-left-content-para">
