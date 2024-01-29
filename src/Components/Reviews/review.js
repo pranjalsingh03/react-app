@@ -19,7 +19,7 @@ const Review = () => {
         <div class="row text-center">
           <div class="col-md-6 mb-4 mb-md-0">
             <div class="d-flex justify-content-center mb-4">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(22).webp"
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(22).webp" alt=""
                 class="rounded-circle shadow-1-strong" width="100" height="100" />
             </div>
             <p class="lead my-3 text-center">
@@ -30,7 +30,7 @@ const Review = () => {
           </div>
           <div class="col-md-6 ">
             <div class="d-flex justify-content-center mb-4">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp"
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt=""
                 class="rounded-circle shadow-1-strong" width="100" height="100" />
             </div>
             <p class="lead my-3 text-center">

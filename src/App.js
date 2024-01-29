@@ -6,7 +6,8 @@ import Intro from './Components/Intro/intro';
 import Home from "./Components/Home/home";
 import Projects from './Components/Projects/projects';
 import ContactUs from './Components/Contactus/contact';
-import Review from './Components/Reviews/review';
+import Lang from './Components/Languages/Lang';
+// import Review from './Components/Reviews/review';
 
 
 
@@ -21,8 +22,9 @@ export default function MyApp() {
       <Header />    {/*Header of the portfolio*/}
       <Intro/>  </div>      {/* introduction  */}
       <Home/>      {/*Home page */}
+      <Lang/>
       <Projects/>    {/* Project page */}
-      <Review/>
+      {/* <Review/> */}
       <ContactUs/>
       <Footer/>     {/*//Footer of the portfolio */}
       </>
