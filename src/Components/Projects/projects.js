@@ -12,6 +12,7 @@ const Projects = () => {
                 Some Things I've Built</h3>
             <div class="featured__StyledProject-sc-19vdtah-9 VhaEB"
                 data-sr-id="4">
+                <img src={Projectone} alt="project1" className="project1" />
                 <div class="featured__StyledContent-sc-19vdtah-1 gWlhZI">
                     <h4 class="featured__StyledLabel-sc-19vdtah-2 dZTpBf">Featured Project</h4>
                     <h5 class="featured__StyledProjectName-sc-19vdtah-3 jRnWTV">
@@ -19,17 +20,8 @@ const Projects = () => {
                     </h5>
                     <div class="featured__StyledDescription-sc-19vdtah-4 hwxmov">
                         <p>A Web-Calendar which helps human being with lot of information on day-to-day life.</p>
-
-                        {/* <p>Inspired by Adrian Rosebrock's
-                            <a href="www.gothub.com" target="_blank" rel="nofollow noopener noreferrer">PyImageSearch Blog</a>
-                        </p> */}
-
                     </div>
-
-
                 </div>
-
-                <img src={Projectone} alt="project1" className="project1" />
             </div>
             <div class="featured__StyledProject-sc-19vdtah-9 VhaEB"
                 data-sr-id="4">
