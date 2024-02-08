@@ -8,10 +8,10 @@
     padding-right: 3%;
 }
 
-nav{
+/* nav{
   background:rgba(0,0,0,.7);
   backdrop-filter: blur(15px);
-}
+} */
 
 .toggle-button{
     border: none;
@@ -27,7 +27,7 @@ nav{
     padding: 0%;
     top: 0px;
     transition: background-color .2s;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     right: 0;
     padding-left: 1rem!important;
