@@ -22,7 +22,7 @@ const Intro = () => {
                         <a href="https://www.linkedin.com/in/pranjalsingh03/">
                             <img src={linkedin} alt="linkedin" className="responsive-logo-intro" />
                         </a>
-                        <a href="https://www.instagram.com/sanatani_magan09/">
+                        <a href="https://twitter.com/pranjal_magan09">
                             <img src={twitter} alt="twiter" className="responsive-logo-intro" />
                         </a>
                     </div>
@@ -40,7 +40,7 @@ const Intro = () => {
                         <a href="https://www.instagram.com/sanatani_magan09/">
                             <img src={instagram} alt="instagram" className="Image-logo imagelogo" />
                         </a>
-                        <a href="https://www.instagram.com/sanatani_magan09/">
+                        <a href="https://twitter.com/pranjal_magan09">
                             <img src={twitter} alt="twiter" className="Image-logo imagelogo" />
                         </a>
                         <a href="https://www.facebook.com/magan728">
