@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.3a8d53d8.css",
-    "main.js": "/react-app/static/js/main.5c1a1628.js",
+    "main.css": "/react-app/static/css/main.3651d752.css",
+    "main.js": "/react-app/static/js/main.bdd6e0b9.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-app/static/js/787.1ed0c42c.chunk.js",
     "static/media/webcalendar.png": "/react-app/static/media/webcalendar.bc3ceb0d76cd6908cccb.png",
     "static/media/profile.JPG": "/react-app/static/media/profile.e5818d340cc9e4e16391.JPG",
@@ -16,12 +16,12 @@
     "static/media/twitter.svg": "/react-app/static/media/twitter.2913a038d87f1712a6cdfe93a0106a27.svg",
     "static/media/linkedin.svg": "/react-app/static/media/linkedin.fe2ff82f48c5cb78330947b9b07a3b35.svg",
     "static/media/facebook.svg": "/react-app/static/media/facebook.971e53097e4398b3756a72fff5d44fc0.svg",
-    "main.3a8d53d8.css.map": "/react-app/static/css/main.3a8d53d8.css.map",
-    "main.5c1a1628.js.map": "/react-app/static/js/main.5c1a1628.js.map",
+    "main.3651d752.css.map": "/react-app/static/css/main.3651d752.css.map",
+    "main.bdd6e0b9.js.map": "/react-app/static/js/main.bdd6e0b9.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-app/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a8d53d8.css",
-    "static/js/main.5c1a1628.js"
+    "static/css/main.3651d752.css",
+    "static/js/main.bdd6e0b9.js"
   ]
 }
