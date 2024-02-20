@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Lang.css';
 
 const Lang = () => {
   const [activeTab, setActiveTab] = useState('hard-skills');
@@ -8,7 +9,7 @@ const Lang = () => {
   };
 
   return (
-    <div className="container py-5">
+    <div className="container py-8">
       <div className="p-5 container">
         <h2 className="display-4 pb-5 text-center">Skills</h2>
         <ul className="skills-tabs nav nav-tabs nav-fill" role="tablist">
@@ -24,11 +25,53 @@ const Lang = () => {
             <div className="pt-3 px-1 row">
               <div className="col-md-6 col-12">
                 <div style={{ width: '95%' }}>
-                  <p className="lead mb-1 mt-2">Python</p>
+                  <p className="lead mb-1 mt-2">HTML/CSS</p>
                   <div className="progress-bar-animation progress">
                     <div role="progressbar" className="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
                   </div>
                 </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">SQL</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: '75%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">React Js</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{ width: '85%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">C/C++</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style={{ width: '65%' }}></div>
+                  </div>
+                </div>
+                {/* Add more technical skills */}
+                
+                
+              </div>
+              <div className="col-md-6 col-12">
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">JavaScript</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
+                  </div>
+                  <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Java</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Python</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{ width: '70%' }}></div>
+                  </div>
+                </div>
+                </div>
+
                 {/* Add more technical skills */}
               </div>
             </div>
@@ -39,16 +82,54 @@ const Lang = () => {
                 <div style={{ width: '95%' }}>
                   <p className="lead mb-1 mt-2">Goal-Oriented</p>
                   <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '95%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Innovative</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Strong Decision maker</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '85%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Complex Problem Solver</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '90%' }}></div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-12">
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Adaptive</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '96%' }}></div>
+                  </div>
+                </div>
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Creative Design</p>
+                  <div className="progress-bar-animation progress">
                     <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div>
                   </div>
                 </div>
-                {/* Add more soft skills */}
+                <div style={{ width: '95%' }}>
+                  <p className="lead mb-1 mt-2">Punctual</p>
+                  <div className="progress-bar-animation progress">
+                    <div role="progressbar" className="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '98%' }}></div>
+                  </div>
+                  
+                </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
