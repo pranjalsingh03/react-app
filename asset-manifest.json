@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8f8acc0.css",
-    "main.js": "/static/js/main.5ae69f2b.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/webcalendar.png": "/static/media/webcalendar.bc3ceb0d76cd6908cccb.png",
-    "static/media/profile.JPG": "/static/media/profile.e5818d340cc9e4e16391.JPG",
-    "static/media/kavachphoto.jpg": "/static/media/kavachphoto.e27edfbc9068e1f7b2be.jpg",
-    "static/media/flipkartclone.jpg": "/static/media/flipkartclone.4f77f8dcde9d81ec31b5.jpg",
-    "static/media/logo1.png": "/static/media/logo1.adf99becb149729e53b4.png",
-    "static/media/Sun.svg": "/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
-    "static/media/instagram.svg": "/static/media/instagram.220a5ae3756eb63c8ee0a1aa281de8cc.svg",
-    "index.html": "/index.html",
-    "static/media/Moon.svg": "/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
-    "static/media/github.svg": "/static/media/github.2866dc736a0ea47a8da98d67a93be325.svg",
-    "static/media/twitter.svg": "/static/media/twitter.2913a038d87f1712a6cdfe93a0106a27.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.fe2ff82f48c5cb78330947b9b07a3b35.svg",
-    "static/media/facebook.svg": "/static/media/facebook.971e53097e4398b3756a72fff5d44fc0.svg",
-    "main.e8f8acc0.css.map": "/static/css/main.e8f8acc0.css.map",
-    "main.5ae69f2b.js.map": "/static/js/main.5ae69f2b.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-app/static/css/main.e8f8acc0.css",
+    "main.js": "/react-app/static/js/main.56cf9fbf.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-app/static/js/787.1ed0c42c.chunk.js",
+    "static/media/webcalendar.png": "/react-app/static/media/webcalendar.bc3ceb0d76cd6908cccb.png",
+    "static/media/profile.JPG": "/react-app/static/media/profile.e5818d340cc9e4e16391.JPG",
+    "static/media/kavachphoto.jpg": "/react-app/static/media/kavachphoto.e27edfbc9068e1f7b2be.jpg",
+    "static/media/flipkartclone.jpg": "/react-app/static/media/flipkartclone.4f77f8dcde9d81ec31b5.jpg",
+    "static/media/logo1.png": "/react-app/static/media/logo1.adf99becb149729e53b4.png",
+    "static/media/Sun.svg": "/react-app/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "index.html": "/react-app/index.html",
+    "static/media/instagram.svg": "/react-app/static/media/instagram.220a5ae3756eb63c8ee0a1aa281de8cc.svg",
+    "static/media/Moon.svg": "/react-app/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "static/media/github.svg": "/react-app/static/media/github.2866dc736a0ea47a8da98d67a93be325.svg",
+    "static/media/twitter.svg": "/react-app/static/media/twitter.2913a038d87f1712a6cdfe93a0106a27.svg",
+    "static/media/linkedin.svg": "/react-app/static/media/linkedin.fe2ff82f48c5cb78330947b9b07a3b35.svg",
+    "static/media/facebook.svg": "/react-app/static/media/facebook.971e53097e4398b3756a72fff5d44fc0.svg",
+    "main.e8f8acc0.css.map": "/react-app/static/css/main.e8f8acc0.css.map",
+    "main.56cf9fbf.js.map": "/react-app/static/js/main.56cf9fbf.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-app/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f8acc0.css",
-    "static/js/main.5ae69f2b.js"
+    "static/js/main.56cf9fbf.js"
   ]
 }
