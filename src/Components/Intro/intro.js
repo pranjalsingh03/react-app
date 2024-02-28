@@ -28,7 +28,7 @@ const Intro = () => {
                     </div>
                 </div>
                 <div orientation="left"
-                    className="side__StyledContainer-sc-18y99l7-0 gXnnBS">
+                    className="gXnnBS">
                     <div
                         className="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done">
                         <a href="https://github.com/pranjalsingh03">
@@ -51,7 +51,7 @@ const Intro = () => {
             </div>
             {/* Right side of the div */}
 
-            <div orientation="right" class="side__StyledContainer-sc-18y99l7-0 lbtSgG"><div class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done"><a href="mailto:pranjalmagansingh9304@gmail.com" class="email__StyledEmailLink-sc-1fu3fru-1 gduzAh">pranjalmagansingh9304@gmail.com</a></div></div>
+            <div orientation="right" class="lbtSgG"><div class="email__StyledLinkWrapper-sc-1fu3fru-0 dvseSq fade-enter-done"><a href="mailto:pranjalmagansingh9304@gmail.com" class="email__StyledEmailLink-sc-1fu3fru-1 gduzAh">pranjalmagansingh9304@gmail.com</a></div></div>
         </div>
         // </div>
     )
