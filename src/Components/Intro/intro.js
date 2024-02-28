@@ -6,8 +6,33 @@ import linkedin from "../../Images/linkedin.svg";
 import instagram from "../../Images/instagram.svg";
 import facebook from "../../Images/facebook.svg"
 import twitter from "../../Images/twitter.svg";
+import { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
+
 const Intro = () => {
+    const el = useRef(null);
+    useEffect(() => {
+      const typed = new Typed(el.current, {
+        strings: [
+          "Full stack developer",
+          "Front-end developer",
+          "React Developer",
+        ],
+        startDelay: 300,
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 100,
+        loop: true,
+      });
+  
+      // Destroying
+      return () => {
+        typed.destroy();
+      };
+    }, []);
+
     return (
+        
 
         <div className="main-box">
 
@@ -15,6 +40,7 @@ const Intro = () => {
             <div className="main-box-content-left">
                 <span className="first-name">Pranjal Singh</span>
                 <div className="about-user"><p className="about-me"> Brings ideas to life with code.</p>
+                <h1 className="typed-component">I am a <span className="typed-span" ref={el}></span>{" "}</h1>
                     <div className="jsUDeb">
                         <a href="https://github.com/pranjalsingh03">
                             <img src={github} alt="github" className="responsive-logo-intro" />

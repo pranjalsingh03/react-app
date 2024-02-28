@@ -127,6 +127,17 @@ div {
     display: none;
 }
 
+.typed-component{
+    position: relative;
+    top: 56%;
+    width: 100%;
+    justify-content: center;
+    color: var(--adrakcolor);
+}
+.typed-span{
+    color: var(--aboutcolor);
+}
+
 /* For screen size more than 400px */
 @media screen and (max-width: 780px) {
     .first-name {
